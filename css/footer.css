@@ -1,0 +1,8 @@
+footer{
+    display: flex;
+    align-items: center;
+    background: #FFF9C8;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+}

@@ -1,0 +1,143 @@
+.projetos-secao{
+    width: 100%;
+}
+
+.projetos-titulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    padding-top: 48px;
+}
+
+.container-projetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-projetos1{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.projetos-titulo{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.projetos-img-curso{
+    padding: 12px;
+}
+
+.container-projetos .projetos-img-curso{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.container-projetos1 .projetos-img-curso{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    }
+
+.container-projetos .container-botao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.container-projetos1 .container-botao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.botao-titulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+    padding-bottom: 27px;
+}
+
+.botao-desc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.botao-repo{
+
+    background: #FCFADE;
+    border: 1px solid #341CAF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin: 30px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #341CAF;
+    cursor: pointer;
+}
+
+.botao-demo{
+    background: #341CAF;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FCFADE;
+    cursor: pointer;
+}
+
+.projeto-botao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.botao-desc{
+    text-align: center;
+}
+
+.botao-repo{
+    padding: 15px;
+}
+.botao-demo{
+    padding: 15px;
+}
