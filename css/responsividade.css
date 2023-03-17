@@ -1,8 +1,8 @@
 
-@media  (max-width: 414px){
+@media  (max-width: 1024px){
 
     body{
-        width: min-content;
+        width: fit-content
     }
 
     .projeto-botao{
@@ -16,5 +16,15 @@
         align-items: center;
     }
 
-}
+ }
 
+@media (max-width: 400px){
+    .cabecalhoPrincipal-download-link{
+        display: none;
+    }
+
+    .cabecalhoPrincipal-img{
+        width: 60px;
+        height: auto;
+    }
+}
