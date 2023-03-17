@@ -19,10 +19,12 @@
 <body>
     <header class="cabecalhoPrincipal">
         <div class="container">
-            <h2 class="cabecalhoPrincipal-download">
-                <img class="cabecalhoPrincipal-img" src="./imagem/material-symbols_download-rounded.png" alt="icone de download">
-                <a class="cabecalhoPrincipal-download-link" href="#">Ricardo Rosa Rodriguez</a>
+            
+            <h2 class="cabecalhoPrincipal-download">                
+                <img  class="cabecalhoPrincipal-img" src="./imagem/material-symbols_download-rounded.png" alt="icone de download">  
+                <button onclick="gerarPdf()" ><a class="cabecalhoPrincipal-download-link" href="#">Ricardo Rosa Rodriguez</a></button>
             </h2>
+            
             <nav class="cabecalhoPrincipal-nav">
                 <a class="cabecalhoPrincipal-nav-link" href="#projetos">Projetos</a>
                 <a class="cabecalhoPrincipal-nav-link" href="#sobre-link">Sobre mim</a>
@@ -138,7 +140,9 @@
             <h2>2023</h2>
         </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js" integrity="sha512-ml/QKfG3+Yes6TwOzQb7aCNtJF4PUyha6R3w8pSTo/VJSywl7ZreYvvtUso7fKevpsI+pYVVwnu82YO0q3V6eg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./JS/convertPdf.js"></script>
          
     
 </body>
