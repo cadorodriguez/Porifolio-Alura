@@ -1,11 +1,11 @@
 .container-formacao{
 display: flex;
 flex-direction: column;
-background: #FFF9C8;
+background: #f4e285;
 }
 
 .container-formacao .formacao-titulo{
-    background: #FFF9C8;
+    background: #f4e285;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,7 +27,7 @@ background: #FFF9C8;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: #FFF9C8;
+    background: #f4e285;
 }
 
 .formacao-ul{
@@ -41,4 +41,8 @@ background: #FFF9C8;
 
 .formacao-curso{
     width: 600px;
+}
+
+.fomacao-img{
+    margin-bottom: 8px;
 }

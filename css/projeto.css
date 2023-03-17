@@ -96,7 +96,7 @@
 .botao-repo{
 
     background: #FCFADE;
-    border: 1px solid #341CAF;
+    border: 1px solid #1a535c;
     border-radius: 20px;
     box-sizing: border-box;
     font-family: 'Roboto';
@@ -105,12 +105,12 @@
     font-weight: 300;
     font-size: 32px;
     line-height: 38px;
-    color: #341CAF;
+    color: #1a535c;
     cursor: pointer;
 }
 
 .botao-demo{
-    background: #341CAF;
+    background: #1a535c;
     border-radius: 20px;
     font-family: 'Roboto';
     font-style: normal;

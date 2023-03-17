@@ -1,0 +1,20 @@
+
+@media  (max-width: 414px){
+
+    body{
+        width: min-content;
+    }
+
+    .projeto-botao{
+        flex-wrap: nowrap;
+        padding: 0%;
+    }
+
+    .cabecalhoPrincipal-nav {
+        display: flex;
+        margin-right: 40px;
+        align-items: center;
+    }
+
+}
+
