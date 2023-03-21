@@ -4,6 +4,20 @@
     margin-left: 45px;
 }
 
+.cabecalho-titulo-down{
+    font-size: 14px;
+}
+
+.cabecalhoPrincipal-img{
+    width: 20px;
+}
+
+.cabecalho-curriculo{
+    display: none;
+    width: 2480px;
+    height: 3508px;
+}
+
 .cabecalhoPrincipal .container{
     display: flex;
     align-items: center;
